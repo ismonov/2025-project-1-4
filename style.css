@@ -1,0 +1,116 @@
+/* General body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 80%;
+    margin: auto;
+    background-color: #f6f9fc; /* soft pastel background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #c8e7f5; /* light sky blue */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #36454F;
+    font-size: 2em;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+    display: flex;
+    justify-content: center;
+    background-color: #a8dadc; /* soft mint tone */
+    border-radius: 8px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2b2d42;
+    font-weight: 500;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 6px;
+}
+
+nav ul li a:hover {
+    background-color: #bde0fe; /* light pastel blue hover */
+    color: #1d3557;
+}
+
+/* Two-column layout */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+main {
+    flex: 3;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+aside {
+    flex: 1;
+    background: #e8eaf6; /* soft lavender */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.featured-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #c8e7f5;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #1d3557;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 5px 0;
+    }
+}

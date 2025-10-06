@@ -1,16 +1,14 @@
-/* General body styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 80%;
     margin: auto;
-    background-color: #f6f9fc; /* soft pastel background */
+    background-color: #f6f9fc;
     color: #333;
     line-height: 1.6;
 }
 
-/* Header */
 header {
-    background-color: #c8e7f5; /* light sky blue */
+    background-color: #c8e7f5;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
@@ -23,14 +21,13 @@ header h1 {
     font-size: 2em;
 }
 
-/* Navigation */
 nav ul {
     list-style: none;
     padding: 0;
     margin: 15px 0 0;
     display: flex;
     justify-content: center;
-    background-color: #a8dadc; /* soft mint tone */
+    background-color: #a8dadc; 
     border-radius: 8px;
 }
 
@@ -48,11 +45,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #bde0fe; /* light pastel blue hover */
+    background-color: #bde0fe;
     color: #1d3557;
 }
 
-/* Two-column layout */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -70,7 +66,7 @@ main {
 
 aside {
     flex: 1;
-    background: #e8eaf6; /* soft lavender */
+    background: #e8eaf6;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -83,7 +79,6 @@ aside {
     margin-top: 15px;
 }
 
-/* Footer */
 footer {
     text-align: center;
     background-color: #c8e7f5;
@@ -102,7 +97,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive layout */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
